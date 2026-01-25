@@ -78,7 +78,7 @@ the-hindu-news-scraper/
 
 ```bash
 git clone https://github.com/ashish-modak-22/csv_file_extraction.git
-
+```
 ---
 
 2️⃣ Install required libraries
