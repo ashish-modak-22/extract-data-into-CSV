@@ -76,9 +76,8 @@ the-hindu-news-scraper/
 
 1️⃣ Clone the repository
 
-    ```bash
-    
-    git clone <https://github.com/ashish-modak-22/csv_file_extraction.git>
+```bash
+git clone https://github.com/ashish-modak-22/csv_file_extraction.git
 
 ---
 
