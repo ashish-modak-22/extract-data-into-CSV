@@ -113,32 +113,27 @@ python csv_extract.py
 ---
  
 
-📌 Requirements
-
-* Python 3.x
-* Google Chrome browser
-* ChromeDriver (matching Chrome version)
-* Selenium library
-
+## 📌 Requirements
+ 
+- Python 3.x
+- Google Chrome browser
+- Selenium library
+- WebDriver Manager library (`webdriver-manager`)
 ---
-
-🎯 Learning Outcomes
-
-* Hands-on experience with real-world web scraping
-* Learned to extract text and attributes using XPath
-* Learned CSV file handling in Python
-* Improved understanding of Selenium automation workflow
-* Understood dynamic website scraping challenges
-
+ 
+## 🎯 Learning Outcomes
+ 
+- Hands-on experience with real-world web scraping
+- Learned to extract text and attributes using XPath
+- Learned CSV file handling in Python
+- Improved understanding of Selenium automation workflow (headless mode, service management)
+- Understood dynamic website scraping challenges
 ---
-
-👨‍💻 Author
-
-* Ashish Modak
-* Selenium Automation Learner | Python Programmer | C/C++ DSA Enthusiast
-
+ 
+## 👨‍💻 Author
+ 
+- **Ashish Modak**
+- Selenium Automation Learner | Python Programmer | C/C++ DSA Enthusiast
 ---
-
-Important Modification: An explicit wait can be done for the webdriver as per certain conditions for a smooth scrapping.
-
----
+ 
+**Important Modification:** An explicit wait can be added for the WebDriver (e.g., using `WebDriverWait` with `expected_conditions`) as per certain conditions, for a smoother and more reliable scraping process.
