@@ -67,48 +67,51 @@ This project focuses on **real-world web scraping**, automation logic, and struc
 ---
 
 ## 📊 Output Format (CSV)
-The generated CSV file contains the following columns:
-
+ 
+The generated CSV file (`HINDU.csv`) contains the following columns:
+ 
 | SL No | Headline | URL |
 |------|----------|-----|
 | 1 | Sample News Title | https://www.thehindu.com/... |
-
+ 
 ---
-
+ 
 ## 🖼️ Project Snapshot
+ 
 ![Project Output Screenshot](csv_snapshot.png)
-
+ 
 ---
-
+ 
+```
 the-hindu-news-scraper/
 │
 ├── csv_extract.py
 ├── HINDU.csv
 ├── csv_snapshot.png
 └── README.md
-
+```
+ 
 ---
-
-▶️ How to Run the Project  
-
-1️⃣ Clone the repository
-
+ 
+## ▶️ How to Run the Project
+ 
+**1️⃣ Clone the repository**
 ```bash
 git clone https://github.com/ashish-modak-22/csv_file_extraction.git
 ```
+ 
+**2️⃣ Install required libraries**
+```bash
+pip install selenium webdriver-manager
+```
+ 
+**3️⃣ Run the script**
+```bash
+python csv_extract.py
+```
+ 
 ---
-
-2️⃣ Install required libraries
-
----> pip install selenium
-
----
-
-3️⃣ Run the script
-
----> python csv_extract.py
-
----
+ 
 
 📌 Requirements
 
