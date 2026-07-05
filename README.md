@@ -35,28 +35,34 @@ This project focuses on **real-world web scraping**, automation logic, and struc
 ---
 
 ## 🚀 Features
+ 
+- Runs Chrome in **headless mode** (no visible browser window)
+- Automatically downloads/manages the correct **ChromeDriver** version via `webdriver-manager`
 - Automatically opens *The Hindu* news website
-- Fetches multiple news article links
+- Fetches multiple news article links using **XPath**
 - Extracts article headlines and URLs
 - Stores data in a structured **CSV file**
 - CSV file contains:
   - SL No
   - Headline
   - URL
+- Waits for user input (`ENTER`) before closing the browser session
 - Fully automated scraping process
-
 ---
-
+ 
 ## 🧠 Project Workflow
-1. Launch Google Chrome using Selenium WebDriver  
-2. Open **The Hindu** official news website  
-3. Locate article elements using **XPath**  
-4. Extract:
+ 
+1. Configure Chrome options (`--headless`, `--disable-gpu`)
+2. Launch Google Chrome using Selenium WebDriver, with ChromeDriver auto-installed via `webdriver-manager`
+3. Open **The Hindu** official news website
+4. Locate article elements using **XPath** (`//a[contains(@href, 'article')]`)
+5. Extract:
    - Article headlines
-   - Corresponding URLs  
-5. Generate a CSV file  
-6. Save extracted data in the following format:
-   - SL No | Headline | URL  
+   - Corresponding URLs
+6. Generate a CSV file
+7. Save extracted data in the following format:
+   - SL No | Headline | URL
+8. Wait for user confirmation (`ENTER`) before quitting the driver
 
 ---
 
