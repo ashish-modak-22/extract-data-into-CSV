@@ -9,24 +9,26 @@
 
 </div>
 
-## 📌 Project Overview
-This project is a **web automation and data extraction project** built using **Selenium in Python**.  
-The script automatically visits **The Hindu news website**, extracts article information, and stores the data into a **CSV file** for further use.
 
+## 📌 Project Overview
+ 
+This project is a **web automation and data extraction project** built using **Selenium in Python**.
+The script automatically visits **The Hindu news website**, extracts article information, and stores the data into a **CSV file** for further use.
+ 
 The extracted data includes:
 - Serial Number (SL No)
 - Article Headline
 - Article URL (Link)
-
 This project focuses on **real-world web scraping**, automation logic, and structured data storage.
-
+ 
 ---
-
+ 
 ## ⚙️ Technologies Used
+ 
 - **Python**
 - **Selenium WebDriver**
-- **Google Chrome**
-- **ChromeDriver**
+- **Google Chrome (Headless Mode)**
+- **WebDriver Manager** (auto-installs the matching ChromeDriver)
 - **CSV Module**
 - **VS Code**
 
