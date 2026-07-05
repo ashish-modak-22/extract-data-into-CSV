@@ -1,5 +1,14 @@
 # 📰 The Hindu News Article Scraper using Selenium (Python)
 
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![CSV](https://img.shields.io/badge/CSV-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![ChromeDriver](https://img.shields.io/badge/Chrome%20WebDriver-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
+
+</div>
+
 ## 📌 Project Overview
 This project is a **web automation and data extraction project** built using **Selenium in Python**.  
 The script automatically visits **The Hindu news website**, extracts article information, and stores the data into a **CSV file** for further use.
