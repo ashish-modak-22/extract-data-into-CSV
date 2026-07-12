@@ -128,12 +128,9 @@ python csv_extract.py
 - Learned CSV file handling in Python
 - Improved understanding of Selenium automation workflow (headless mode, service management)
 - Understood dynamic website scraping challenges
----
- 
-## 👨‍💻 Author
- 
-- **Ashish Modak**
-- Selenium Automation Learner | Python Programmer | C/C++ DSA Enthusiast
+  
 ---
  
 **Important Modification:** An explicit wait can be added for the WebDriver (e.g., using `WebDriverWait` with `expected_conditions`) as per certain conditions, for a smoother and more reliable scraping process.
+
+---
