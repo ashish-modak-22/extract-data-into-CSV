@@ -131,6 +131,12 @@ python csv_extract.py
 - Understood dynamic website scraping challenges
   
 ---
+
+## 📄 License
+ 
+This project is open source and available under the [MIT License](License).
+
+---
  
 **Important Modification:** An explicit wait can be added for the WebDriver (e.g., using `WebDriverWait` with `expected_conditions`) as per certain conditions, for a smoother and more reliable scraping process.
 
