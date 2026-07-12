@@ -6,6 +6,7 @@
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 ![CSV](https://img.shields.io/badge/CSV-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 ![ChromeDriver](https://img.shields.io/badge/Chrome%20WebDriver-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 </div>
 
